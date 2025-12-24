@@ -2,21 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Smart Calculator</title>
+
+  <!-- Google Search Console Verification -->
+  <meta name="google-site-verification" content="P9Az5q0CE1jh1fSBi0cZzbzI0neuPT3nGVJdAEcK9sw" />
+
+  <title>Smart Calculator | Free Scientific Calculator Online</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Smart Calculator is a free online scientific calculator with modern UI, dark mode, history, DEG/RAD mode and installable PWA experience.">
+  <meta name="keywords" content="smart calculator, scientific calculator, online calculator, math calculator, free calculator">
+  <meta name="author" content="Smart Calculator">
+  <meta name="robots" content="index, follow">
+
+  <!-- Mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Open Graph (Social Sharing) -->
+  <meta property="og:title" content="Smart Calculator – Free Scientific Calculator">
+  <meta property="og:description" content="Modern scientific calculator with dark mode, history and DEG/RAD toggle.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://smart-calculator-nine.vercel.app/">
+
+  <!-- PWA -->
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- Styles -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <div class="calculator">
     <div class="top">
       <h1>Smart Calculator</h1>
       <div>
-        <div>
-     <button id="angleToggle">DEG</button>
-     <button id="modeToggle">🧠</button>
-     <button id="themeToggle">🌙</button>
-</div>
-
+        <button id="angleToggle">DEG</button>
+        <button id="modeToggle">🧠</button>
+        <button id="themeToggle">🌙</button>
       </div>
     </div>
 
@@ -68,10 +90,12 @@
       </div>
       <ul id="historyList"></ul>
     </div>
-
   </div>
+
   <div class="bg"></div>
 
+  <!-- Script -->
   <script src="script.js"></script>
+
 </body>
 </html>
